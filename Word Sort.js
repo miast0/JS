@@ -1,4 +1,4 @@
-var fs = require("fs");
+qvar fs = require("fs");
 var words = fs.readFileSync("Dictionary.txt").toString();
 words = words.split("\n")
 
